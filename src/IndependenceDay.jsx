@@ -4,6 +4,7 @@ import * as THREE from "three";
 import { gsap } from "gsap";
 // **NEW: Import OrbitControls**
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+// import { track } from '@vercel/analytics'; // Import tracking
 
 const IndependenceDay = () => {
   const mountRef = useRef(null);
